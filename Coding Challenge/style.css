@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 80px 60px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+header span {
+    color: #00dd00;
+    font-size: 30px;
+}
+
+header nav {
+    background-color: #00dd00;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+main label {
+    font-size: 20px;
+}
+
+main p {
+    margin: 0;
+}
+
+.carica {
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+}
+
+.carica.w35 {
+    background: #f5b453;
+    width: 35%;
+}
+
+.carica.w60 {
+    background: #1ec31e;
+    width: 60%;
+}
+
+.carica.w15 {
+    background: #be4141;
+    width: 15%;
+}
